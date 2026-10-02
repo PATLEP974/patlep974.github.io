@@ -1,123 +1,77 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="PATLEP974 — Réseaux, fibre optique, énergie et solutions techniques à La Réunion.">
-  <title>PATLEP974 | Réseaux • Fibre • Énergie</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="PATLEP974 — Réseaux, fibre optique, énergie et maintenance à La Réunion.">
+<title>PATLEP974 — Réseaux • Fibre • Énergie</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="bg-orbit orbit1"></div>
-  <div class="bg-orbit orbit2"></div>
+<header class="nav">
+  <a class="logo" href="#home"><img src="logo-patlep974.png" alt="PATLEP974"></a>
+  <nav><a href="#expertise">Expertises</a><a href="#realisations">Réalisations</a><a href="#apropos">À propos</a><a href="#contact">Contact</a></nav>
+  <a class="navcta" href="#contact">Demander un devis <span>↗</span></a>
+  <button class="menu" onclick="document.body.classList.toggle('open')">☰</button>
+</header>
 
-  <header class="header">
-    <a class="brand" href="#accueil">
-      <img src="logo-patlep974.png" alt="Logo PATLEP974">
-    </a>
-    <nav>
-      <a href="#accueil">Accueil</a>
-      <a href="#services">Services</a>
-      <a href="#apropos">À propos</a>
-      <a href="#contact">Contact</a>
-    </nav>
-    <a class="btn small" href="#contact">Nous contacter</a>
-  </header>
+<main>
+<section id="home" class="hero">
+  <div class="hero-copy">
+    <div class="eyebrow"><i></i> LA RÉUNION • SOLUTIONS TECHNIQUES</div>
+    <h1>CONNECTER.<br><em>ALIMENTER.</em><br>MAINTENIR.</h1>
+    <p>PATLEP974 accompagne particuliers, professionnels et collectivités dans leurs projets techniques : <b>réseaux, fibre optique, énergie et maintenance.</b></p>
+    <div class="buttons"><a class="primary" href="#contact">Parler de votre projet <span>→</span></a><a class="secondary" href="#expertise">Nos expertises</a></div>
+    <div class="trust"><span>● Intervention à La Réunion</span><span>● Solutions sur mesure</span></div>
+  </div>
+  <div class="hero-art">
+    <div class="halo"></div><div class="ring r1"></div><div class="ring r2"></div>
+    <img src="logo-patlep974.png" alt="" class="hero-logo">
+    <div class="chip chip1">FIBRE</div><div class="chip chip2">RÉSEAUX</div><div class="chip chip3">ÉNERGIE</div>
+  </div>
+</section>
 
-  <main>
-    <section id="accueil" class="hero">
-      <div class="hero-text">
-        <div class="tag">LA RÉUNION • SOLUTIONS TECHNIQUES</div>
-        <h1>La technologie<br><span>qui avance.</span></h1>
-        <p>PATLEP974 accompagne vos projets dans les domaines des réseaux, de la fibre optique, de l'énergie et des installations techniques.</p>
-        <div class="actions">
-          <a class="btn" href="#services">Découvrir nos services</a>
-          <a class="btn ghost" href="#contact">Demander un devis</a>
-        </div>
-      </div>
-      <div class="hero-logo">
-        <div class="logo-glow"></div>
-        <img src="logo-patlep974.png" alt="PATLEP974">
-      </div>
-    </section>
+<section id="expertise" class="section">
+  <div class="heading"><div><small>01 — EXPERTISE</small><h2>Une compétence<br><strong>technique complète.</strong></h2></div><p>Une approche terrain, de l'installation au dépannage, avec une priorité : une solution propre, fiable et adaptée.</p></div>
+  <div class="services">
+    <article><div class="num">01</div><div class="ico">⌁</div><h3>Réseaux & courants faibles</h3><p>Installation, raccordement, diagnostic et maintenance des infrastructures techniques.</p><a href="#contact">En savoir plus →</a></article>
+    <article><div class="num">02</div><div class="ico">◎</div><h3>Fibre optique</h3><p>Déploiement, raccordement et interventions sur les réseaux fibre et télécom.</p><a href="#contact">En savoir plus →</a></article>
+    <article><div class="num">03</div><div class="ico">ϟ</div><h3>Énergie & éclairage</h3><p>Interventions techniques, éclairage, équipements et solutions liées à l'énergie.</p><a href="#contact">En savoir plus →</a></article>
+    <article><div class="num">04</div><div class="ico">◈</div><h3>Maintenance</h3><p>Recherche de panne, remise en service et maintenance préventive ou corrective.</p><a href="#contact">En savoir plus →</a></article>
+  </div>
+</section>
 
-    <section id="services" class="section">
-      <div class="section-title">
-        <span>NOS EXPERTISES</span>
-        <h2>Des solutions <strong>connectées</strong></h2>
-      </div>
-      <div class="cards">
-        <article class="card">
-          <div class="icon">⌁</div>
-          <h3>Réseaux</h3>
-          <p>Installation, maintenance et interventions sur les infrastructures réseaux et courants faibles.</p>
-        </article>
-        <article class="card">
-          <div class="icon">◎</div>
-          <h3>Fibre optique</h3>
-          <p>Déploiement, raccordement, contrôle et maintenance de solutions fibre adaptées à vos besoins.</p>
-        </article>
-        <article class="card">
-          <div class="icon">⚡</div>
-          <h3>Énergie</h3>
-          <p>Solutions et interventions techniques autour des équipements, de l'éclairage et de l'énergie.</p>
-        </article>
-        <article class="card">
-          <div class="icon">✦</div>
-          <h3>Maintenance</h3>
-          <p>Diagnostic, dépannage et maintenance préventive pour assurer la continuité de vos installations.</p>
-        </article>
-      </div>
-    </section>
+<section id="realisations" class="section dark">
+  <div class="heading"><div><small>02 — SAVOIR-FAIRE</small><h2>Du projet à la<br><strong>mise en service.</strong></h2></div><p>PATLEP974 intervient avec une logique simple : analyser, réaliser, contrôler et assurer le suivi.</p></div>
+  <div class="steps">
+    <div><b>01</b><h3>Diagnostic</h3><p>Analyse du besoin et de l'installation.</p></div>
+    <div><b>02</b><h3>Préparation</h3><p>Choix de la solution et organisation.</p></div>
+    <div><b>03</b><h3>Intervention</h3><p>Installation, raccordement ou dépannage.</p></div>
+    <div><b>04</b><h3>Contrôle</h3><p>Tests, vérification et remise en service.</p></div>
+  </div>
+</section>
 
-    <section id="apropos" class="about section">
-      <div>
-        <div class="section-title">
-          <span>PATLEP974</span>
-          <h2>Une identité <strong>locale & technologique</strong></h2>
-        </div>
-        <p>PATLEP974 associe savoir-faire technique, réactivité et solutions modernes pour les particuliers, professionnels et collectivités à La Réunion.</p>
-        <div class="stats">
-          <div><b>974</b><span>La Réunion</span></div>
-          <div><b>24/7</b><span>Réactivité</span></div>
-          <div><b>∞</b><span>Solutions</span></div>
-        </div>
-      </div>
-      <div class="about-panel">
-        <div class="scan"></div>
-        <img src="logo-patlep974.png" alt="PATLEP974">
-      </div>
-    </section>
+<section id="apropos" class="about section">
+  <div class="about-card"><div class="grid"></div><img src="logo-patlep974.png" alt="PATLEP974"></div>
+  <div><small>03 — PATLEP974</small><h2>Une identité <strong>réunionnaise.</strong></h2><p>PATLEP974 associe proximité, polyvalence technique et technologies modernes. L'objectif est de proposer des interventions professionnelles, claires et adaptées à chaque situation.</p>
+    <div class="facts"><div><b>974</b><span>La Réunion</span></div><div><b>4</b><span>Domaines clés</span></div><div><b>100%</b><span>Terrain</span></div></div>
+  </div>
+</section>
 
-    <section id="contact" class="contact section">
-      <div class="section-title">
-        <span>CONTACT</span>
-        <h2>Parlons de votre <strong>projet</strong></h2>
-      </div>
-      <div class="contact-grid">
-        <div>
-          <p>Une question, une intervention ou une demande de devis ? Écrivez-nous.</p>
-          <div class="contact-item">📍 La Réunion</div>
-          <div class="contact-item">✉️ contact@patlep974.fr</div>
-          <div class="contact-item">📞 Votre téléphone</div>
-        </div>
-        <form onsubmit="sendMessage(event)">
-          <input id="name" type="text" placeholder="Votre nom" required>
-          <input id="email" type="email" placeholder="Votre e-mail" required>
-          <textarea id="message" rows="5" placeholder="Votre demande" required></textarea>
-          <button class="btn" type="submit">Envoyer la demande</button>
-          <small id="form-status"></small>
-        </form>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div>PATLEP974</div>
-    <div>Réseaux • Fibre • Énergie • Maintenance</div>
-    <div>© <span id="year"></span> PATLEP974</div>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-</html>
+<section id="contact" class="contact section">
+ <div class="contact-head"><small>04 — CONTACT</small><h2>Un projet ?<br><strong>Parlons-en.</strong></h2><p>Décrivez votre besoin. Nous pourrons ensuite préciser l'intervention et le devis.</p></div>
+ <form onsubmit="sendMail(event)">
+   <div class="row"><input id="name" required placeholder="Nom / Société"><input id="email" type="email" required placeholder="E-mail"></div>
+   <input id="subject" placeholder="Objet de la demande">
+   <textarea id="msg" required placeholder="Décrivez votre projet ou votre panne…"></textarea>
+   <button class="primary" type="submit">Envoyer ma demande <span>→</span></button>
+   <small id="status"></small>
+ </form>
+</section>
+</main>
+<footer><img src="logo-patlep974.png" alt="PATLEP974"><span>Réseaux • Fibre • Énergie • Maintenance</span><span>© <b id="year"></b> PATLEP974</span></footer>
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+function sendMail(e){e.preventDefault();let n=document.getElementById('name').value,e1=document.getElementById('email').value,s=document.getElementById('subject').value||'Demande PATLEP974',m=document.getElementById('msg').value;location.href='mailto:contact@patlep974.fr?subject='+encodeURIComponent(s)+'&body='+encodeURIComponent('Nom/Société : '+n+'\\nE-mail : '+e1+'\\n\\n'+m);document.getElementById('status').textContent='Ouverture de votre messagerie…';}
+</script>
+</body></html>
