@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PATLEP974 — Réseaux, fibre optique, énergie et solutions techniques à La Réunion.">
+  <title>PATLEP974 | Réseaux • Fibre • Énergie</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-orbit orbit1"></div>
+  <div class="bg-orbit orbit2"></div>
+
+  <header class="header">
+    <a class="brand" href="#accueil">
+      <img src="logo-patlep974.png" alt="Logo PATLEP974">
+    </a>
+    <nav>
+      <a href="#accueil">Accueil</a>
+      <a href="#services">Services</a>
+      <a href="#apropos">À propos</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn small" href="#contact">Nous contacter</a>
+  </header>
+
+  <main>
+    <section id="accueil" class="hero">
+      <div class="hero-text">
+        <div class="tag">LA RÉUNION • SOLUTIONS TECHNIQUES</div>
+        <h1>La technologie<br><span>qui avance.</span></h1>
+        <p>PATLEP974 accompagne vos projets dans les domaines des réseaux, de la fibre optique, de l'énergie et des installations techniques.</p>
+        <div class="actions">
+          <a class="btn" href="#services">Découvrir nos services</a>
+          <a class="btn ghost" href="#contact">Demander un devis</a>
+        </div>
+      </div>
+      <div class="hero-logo">
+        <div class="logo-glow"></div>
+        <img src="logo-patlep974.png" alt="PATLEP974">
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="section-title">
+        <span>NOS EXPERTISES</span>
+        <h2>Des solutions <strong>connectées</strong></h2>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <div class="icon">⌁</div>
+          <h3>Réseaux</h3>
+          <p>Installation, maintenance et interventions sur les infrastructures réseaux et courants faibles.</p>
+        </article>
+        <article class="card">
+          <div class="icon">◎</div>
+          <h3>Fibre optique</h3>
+          <p>Déploiement, raccordement, contrôle et maintenance de solutions fibre adaptées à vos besoins.</p>
+        </article>
+        <article class="card">
+          <div class="icon">⚡</div>
+          <h3>Énergie</h3>
+          <p>Solutions et interventions techniques autour des équipements, de l'éclairage et de l'énergie.</p>
+        </article>
+        <article class="card">
+          <div class="icon">✦</div>
+          <h3>Maintenance</h3>
+          <p>Diagnostic, dépannage et maintenance préventive pour assurer la continuité de vos installations.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="apropos" class="about section">
+      <div>
+        <div class="section-title">
+          <span>PATLEP974</span>
+          <h2>Une identité <strong>locale & technologique</strong></h2>
+        </div>
+        <p>PATLEP974 associe savoir-faire technique, réactivité et solutions modernes pour les particuliers, professionnels et collectivités à La Réunion.</p>
+        <div class="stats">
+          <div><b>974</b><span>La Réunion</span></div>
+          <div><b>24/7</b><span>Réactivité</span></div>
+          <div><b>∞</b><span>Solutions</span></div>
+        </div>
+      </div>
+      <div class="about-panel">
+        <div class="scan"></div>
+        <img src="logo-patlep974.png" alt="PATLEP974">
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div class="section-title">
+        <span>CONTACT</span>
+        <h2>Parlons de votre <strong>projet</strong></h2>
+      </div>
+      <div class="contact-grid">
+        <div>
+          <p>Une question, une intervention ou une demande de devis ? Écrivez-nous.</p>
+          <div class="contact-item">📍 La Réunion</div>
+          <div class="contact-item">✉️ contact@patlep974.fr</div>
+          <div class="contact-item">📞 Votre téléphone</div>
+        </div>
+        <form onsubmit="sendMessage(event)">
+          <input id="name" type="text" placeholder="Votre nom" required>
+          <input id="email" type="email" placeholder="Votre e-mail" required>
+          <textarea id="message" rows="5" placeholder="Votre demande" required></textarea>
+          <button class="btn" type="submit">Envoyer la demande</button>
+          <small id="form-status"></small>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>PATLEP974</div>
+    <div>Réseaux • Fibre • Énergie • Maintenance</div>
+    <div>© <span id="year"></span> PATLEP974</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
